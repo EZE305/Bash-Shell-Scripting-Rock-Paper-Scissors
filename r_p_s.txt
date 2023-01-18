@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -p "Would you like to play a game of rock paper scissors? (yes/no) " answer
+
+if [ $answer == "yes" ]; then
+    python rock_paper_scissors.py
+else
+    echo "Okay then... :("
+
+fi
+
+ 
